@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mv $BASH_ARGV.mp3 $BASH_ARGV-`date "+%y-%m-%d-%H%M"`.mp3
+touch $BASH_ARGV
